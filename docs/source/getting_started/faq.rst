@@ -47,6 +47,7 @@ Tips and Tricks
 
 Add ``'c.ServerApp.default_url = '/lab?reset'`` to your ``jupyter_server_config.py``.
 See `How to create a jupyter_server_config.py <https://jupyter-server.readthedocs.io/en/latest/users/configuration.html>`__ for more information.
+Keyboard Shortcuts
 
 
 Development
