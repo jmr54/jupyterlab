@@ -48,6 +48,57 @@ Tips and Tricks
 Add ``'c.ServerApp.default_url = '/lab?reset'`` to your ``jupyter_server_config.py``.
 See `How to create a jupyter_server_config.py <https://jupyter-server.readthedocs.io/en/latest/users/configuration.html>`__ for more information.
 
+- Run Terminal Commands in Jupyter
+
+Add '!' beforr the terminal command. For example !ls is equivalent to ls. 
+
+- Keyboard Shortcuts
+There are two different modes called Command mode and edit mode. The shortcuts below will show how to use these different shorcuts. 
+
+Shortcuts in both modes:
+   | Shift + Enter runs the current cells and selects below
+   | Ctrl + Enter runs the selected cells.
+   | Alt + Enter runs the current cells and inserts below. 
+   | Ctrl + S saves and creates a checkpoint
+
+While in command mode (press Esc to activate):
+   | Enter to start edit mode
+   | H shows all shorcuts
+   | Up selects cell above
+   | Down selects the cell below
+   | Shift + Up extends selected cells above
+   | Shift + Down extends selected cells below
+   | A inserts cell above
+   | B inserts cell below
+   | X cut selected cells
+   | C copy selected cells
+   | V paste cells below
+   | Shift + V paste cells below
+   | Double Press D to delete selected cells
+   | Z undo cell deletion
+   | S save and creates checkpoint
+   | Y changes the cell type to code
+   | M changes the cell type to Markdown
+   | P opens the command pallette
+   | Shift + Space to scroll notebook up
+
+Commands for edit mode (press Enter to activate)
+   | Esc takes you into command mode
+   | Tab to assist with completion or indentation
+   | Shift + Table shows tooltip
+   | Ctrl + ] indents
+   | Ctrl + [ indents
+   | Ctrl + A selects all
+   | Ctrl + Z undos
+   | Ctrl + Shift + Z or Ctrl + Y redo
+   | Ctrl + Home goes to cell start
+   | Ctrl + End goes to cell end
+   | Ctrl + Left goes one word left
+   | Ctrl + Right goes to one word right
+   | Ctrl + Shift + P opens the command palette
+   | Down moves cursor down
+   | Up move cursor up
+
 
 Development
 -----------
